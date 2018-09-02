@@ -1,0 +1,73 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\Felix\\AppData\\Local\\Temp\\d-118212-12580-1hfejeu.q51eqrrudi\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\Felix\\AppData\\Local\\Temp\\d-118212-12580-1hfejeu.q51eqrrudi\\package.tgz",
+        "spec": "C:\\Users\\Felix\\AppData\\Local\\Temp\\d-118212-12580-1hfejeu.q51eqrrudi\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\Felix\\AppData\\Local\\Temp\\apm-install-dir-118212-12580-jg20rl.pv0tpam7vi"
+    ]
+  ],
+  "_from": "..\\d-118212-12580-1hfejeu.q51eqrrudi\\package.tgz",
+  "_id": "ask-stack@2.2.0",
+  "_inCache": true,
+  "_location": "/ask-stack",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\Felix\\AppData\\Local\\Temp\\d-118212-12580-1hfejeu.q51eqrrudi\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\Felix\\AppData\\Local\\Temp\\d-118212-12580-1hfejeu.q51eqrrudi\\package.tgz",
+    "spec": "C:\\Users\\Felix\\AppData\\Local\\Temp\\d-118212-12580-1hfejeu.q51eqrrudi\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-118212-12580-1hfejeu.q51eqrrudi\\package.tgz",
+  "_shasum": "f88a7f953d39611e84cf1a0631c28b830d9c66b6",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\Felix\\AppData\\Local\\Temp\\d-118212-12580-1hfejeu.q51eqrrudi\\package.tgz",
+  "_where": "C:\\Users\\Felix\\AppData\\Local\\Temp\\apm-install-dir-118212-12580-jg20rl.pv0tpam7vi",
+  "activationCommands": {
+    "atom-text-editor": [
+      "ask-stack:ask-question"
+    ]
+  },
+  "author": {
+    "name": "Christophe Naud-Dulude",
+    "url": "https://github.com/Chris911"
+  },
+  "bugs": {
+    "url": "https://github.com/Chris911/Ask-Stack-Atom/issues"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.3",
+    "event-kit": "~1.2.0",
+    "highlight.js": "8.x",
+    "request": "2.x"
+  },
+  "description": "Quickly get answers and code samples from Stack Overflow in Atom",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/Chris911/Ask-Stack-Atom#readme",
+  "license": "MIT",
+  "main": "./lib/ask-stack",
+  "name": "ask-stack",
+  "optionalDependencies": {},
+  "readme": "# Ask Stack Overflow for Atom [![Build Status](https://travis-ci.org/Chris911/Ask-Stack-Atom.svg?branch=master)](https://travis-ci.org/Chris911/Ask-Stack-Atom)\n\nQuickly get answers and code samples from [Stack Overflow](https://stackoverflow.com/) directly in Atom editor. \n\n![Preview](https://i.imgur.com/ynZlOAT.gif)\n\n## Features\n* Insert or copy code samples with the click of a button\n* Easily browse between questions and answers\n* Sort by relevance or votes\n* Access to the number of votes, tags, accepted answer and more\n\n## Usage \nToggle the Ask Stack Overflow form using `CTRL + ALT + A` or by typing `Ask Stack` in the command bar. \n\n\n## Installation \n[Package homepage](https://atom.io/packages/ask-stack)\n\n**Install from the command line:** <br>\n`$ apm install ask-stack`\n\n## Contributing\n\n1. Fork it\n2. Create your feature branch (`git checkout -b my-new-feature`)\n3. Commit your changes (`git commit -am 'Add some feature'`)\n4. Push to the branch (`git push origin my-new-feature`)\n5. Create new Pull Request\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chris911/Ask-Stack-Atom.git"
+  },
+  "version": "2.2.0"
+}

@@ -1,0 +1,10 @@
+{
+	"extends": "bdougherty/es6",
+	"globals": {
+		"atom": false
+	},
+	"rules": {
+		"max-nested-callbacks": 0,
+		"arrow-body-style": 0
+	}
+}

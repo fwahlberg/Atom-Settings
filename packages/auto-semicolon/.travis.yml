@@ -1,0 +1,34 @@
+notifications:
+  email:
+    on_success: never
+    on_failure: change
+
+  slack:
+    - secure: "erm7i3S+jOZu96iTnzxZeigPhoA+1BCp2nnHo9voCpwt04Cz24Wf7uF+53LHMWRL/zZoTJ20688NwMWIqPAkvvl7UaWeRxbXQKVwGUjSDevumV8jTYDeQ7hpxxZLOMK2YABsVE/hy2eeSiFtvdfraCl+tJfOkoRZE8iJI+7cYedGkc2p1L533+X4nM+XyXzDx/jY2LUmZiBS9bK+ineUJa/rFbARJAk2wyawOv5SpQvU/NJK6dxljZX5OYKMjDh9vYVXfatqQUeqVKDU380LKVtv4josZa+4P9cxZav9j6OU6GxHZXGbveHx1q9wCW1ycpVVMUM1DUVjpQoG+HprJKNETI8cl6biAm7PIpmQncL8uRH5N423e5R49xgMmLcR8tZXV0Beid+KU45Y2ablbUuP+ordFiyTx7KJg3+BVTvahSjG4vmWGB3/VbnpGL/svBujQbT/n2FXpsv5JW3OxB45IsgRzs4ZsuNSTqcwg1iJdFdxSJoD+XNciGz2RTHF64tgR8fU6sW9LL+VsOByaWNjcQwmvjez46O9EkaCr/VRNOHxWSRCjaX57x1tdM+U2rsLK094pI3zgw+bjsddKPoUE6VB8ObXXfoItRdautHak50atf/23EsaKza2LONCmdgXrbslFXGP7R/usoldrbPdXLHswLEKl7GwknK2xpo="
+
+script: 'curl -s https://raw.githubusercontent.com/atom/ci/master/build-package.sh | sh'
+
+git:
+  depth: 10
+
+sudo: false
+
+os:
+  - linux
+  - osx
+
+env:
+  global:
+    - APM_TEST_PACKAGES=""
+
+  matrix:
+    - ATOM_CHANNEL=stable
+    - ATOM_CHANNEL=beta
+
+addons:
+  apt:
+    packages:
+    - build-essential
+    - git
+    - libgnome-keyring-dev
+    - fakeroot

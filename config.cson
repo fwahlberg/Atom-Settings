@@ -1,0 +1,14 @@
+"*":
+  core:
+    telemetryConsent: "no"
+    themes: [
+      "atom-material-ui"
+      "one-dark-syntax"
+    ]
+    uriHandlerRegistration: "always"
+  editor:
+    fontSize: 13
+  "exception-reporting":
+    userId: "28a669e9-ab5e-4b74-9325-d5702effab2b"
+  welcome:
+    showOnStartup: false
